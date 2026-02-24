@@ -1,0 +1,11 @@
+name: perses
+channels:
+  - openeye
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - openmm
+  - perses
+  - openeye-toolkits
+prefix: /home/vedant/miniconda3/envs/perses

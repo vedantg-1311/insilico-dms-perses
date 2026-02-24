@@ -1,0 +1,51 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Envs ----
+.env
+.venv
+venv/
+conda-meta/
+*.conda
+
+# ---- Outputs / artifacts ----
+runs/
+logs/
+reports/**/figs/*.png
+reports/**/ddG_colored.png
+reports/**/figs_interface_vs_noninterface.png
+reports/**/position_summary.csv
+*.npy
+*.npz
+*.pkl
+*.json
+
+# If you DO want to keep some reports, remove the relevant lines above and commit selected files.
+
+# ---- Data policy ----
+# Keep raw/cleaned PDBs if they are small and allowed; otherwise ignore:
+# data/
+
+# ---- Licenses / secrets ----
+oe_license.txt
+*license*.txt
+*.key
+*.pem
+
+# ---- Editor/OS ----
+.DS_Store
+.vscode/
+.idea/
